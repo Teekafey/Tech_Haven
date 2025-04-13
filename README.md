@@ -1,8 +1,10 @@
 # Tech_Haven
 
-## TechHaven: E-Commerce Web App for Tech Gadgets
+## TechHaven: Mini E-Commerce Web App for Tech Gadgets
 
-TechHaven is a full-stack e-commerce platform built to showcase a database-centered architecture where every user action interacts directly with the underlying database. This project highlights my skills as a Database Developer by integrating PostgreSQL with a Flask backend and a clean HTML/CSS/JavaScript frontend.
+TechHaven is a e-commerce platform built to showcase a database-centered architecture where every user action interacts directly with the underlying database. This project highlights my skills as a Database Developer by integrating PostgreSQL with a Flask backend and a minimal HTML/CSS/JavaScript frontend.
+
+💭**Thought** : I wanted to build a project that truly shows what a great database looks like in action. This is it.
 
 ---
 
@@ -15,9 +17,9 @@ TechHaven is a full-stack e-commerce platform built to showcase a database-cente
 ---
 
 ## 💡 Tech Stack
+- **Database:** PostgreSQL (with advanced SQL logic)
 - **Frontend:** HTML, CSS, JavaScript (Fetch API)
 - **Backend:** Python Flask (REST API)
-- **Database:** PostgreSQL (with advanced SQL logic)
 
 ---
 
@@ -34,9 +36,6 @@ TechHaven is a full-stack e-commerce platform built to showcase a database-cente
 - `GET /api/products` – Fetch all products
 - `GET /api/products/<id>` – Fetch product details
 - `GET /api/cart?user_id=1` – Get cart for a user
-- `POST /api/update-cart` – Add/update cart items
-- `DELETE /api/remove-cart-item` – Remove item from cart
-- `POST /api/checkout` – Process order
 - `GET /api/order-summary?user_id=1` – Get latest order summary
 
 ### 🖥️ Frontend (Vanilla JS)
@@ -45,53 +44,5 @@ TechHaven is a full-stack e-commerce platform built to showcase a database-cente
 - Checkout and summary flow
 
 ---
-
-## 📸 Screenshots
-- Homepage with live product feed
-- Product details on click
-- Cart with quantity control
-- Order summary with user info and item breakdown
-
----
-
-## 📦 Setup & Run Locally
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/techhaven.git
-cd techhaven
-
-# Backend
-cd backend
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-python app.py
-
-# Frontend
-Open index.html in your browser
-```
-
----
-
-## 🛠️ Highlights for Recruiters
-- Deep focus on **database interaction** and backend logic.
-- Minimalistic but clean frontend to visualize data flow.
-- Proof of understanding **stored procedures, triggers, and SQL optimization**.
-- Complete user interaction cycle — from browsing to checkout.
-
----
-
-## 🙌 Author
-**Samuel — Aspiring Database Developer**
-
-> "I wanted to build a project that truly shows what a great database looks like in action. This is it."
-
----
-
-## 📫 Feedback / Questions
-Reach out via [LinkedIn](#) or open an issue on GitHub.
-
----
-
 **⭐ Star this repo if you find it useful or inspiring!**
 
