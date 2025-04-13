@@ -1,4 +1,4 @@
-# Tech_Haven
+# TechHaven
 
 ## TechHaven: Mini E-Commerce Web App for Tech Gadgets
 
