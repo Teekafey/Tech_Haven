@@ -4,6 +4,9 @@
 
 TechHaven is a e-commerce platform built to showcase a database-centered architecture where every user action interacts directly with the underlying database. This project highlights my skills as a Database Developer by integrating PostgreSQL with a Flask backend and a minimal HTML/CSS/JavaScript frontend.
 
+![image](https://github.com/user-attachments/assets/cad4272f-26fc-4e94-8b09-189cc9901253)
+
+
 💭**Thought** : I wanted to build a project that truly shows what a great database looks like in action. This is it.
 
 ---
@@ -25,9 +28,12 @@ TechHaven is a e-commerce platform built to showcase a database-centered archite
 
 ## 🧠 Key Features
 ### 🗄️ Database Design (PostgreSQL)
-- Relational schema with tables like:
-  - `products`, `users`, `cart`, `orders`, `order_items`, `reviews`, `suppliers`, `categories`
-- **Advanced SQL Logic**:
+![ERD Diagram](https://github.com/user-attachments/assets/9a5a06c4-f46f-4fb3-be65-13b33a2764c2)
+
+---------
+- **Relational schema with tables like:**
+  - `products`, `users`, `cart`, `orders`, `order_items`, `reviews`, `suppliers`, `payments`, `categories`
+- **Advanced SQL Logic:**
   - Triggers to prevent out-of-stock orders
   - Stored Procedures to process orders
   - Functions for cart totals
@@ -38,7 +44,7 @@ TechHaven is a e-commerce platform built to showcase a database-centered archite
 - `GET /api/cart?user_id=1` – Get cart for a user
 - `GET /api/order-summary?user_id=1` – Get latest order summary
 
-### 🖥️ Frontend (Vanilla JS)
+### 🖥️ Frontend (JS)
 - Dynamic loading of products and order info
 - Interactive cart UI (plus/minus buttons, remove, totals)
 - Checkout and summary flow
