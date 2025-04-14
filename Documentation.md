@@ -2,7 +2,7 @@
 
 ## TechHaven: Mini E-Commerce Web App for Tech Gadgets
 
-TechHaven is a e-commerce platform built to showcase a database-centered architecture where every user action interacts directly with the underlying database. This project highlights my skills as a Database Developer by integrating PostgreSQL with a Flask backend and a minimal HTML/CSS/JavaScript frontend.
+TechHaven is an e-commerce platform built to showcase a database-centered architecture where every user action interacts directly with the underlying database. This project highlights my skills as a Database Developer by integrating PostgreSQL with a Flask backend and a minimal HTML/CSS/JavaScript frontend.
 
 ![image](https://github.com/user-attachments/assets/cad4272f-26fc-4e94-8b09-189cc9901253)
 
