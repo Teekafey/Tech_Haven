@@ -7,7 +7,7 @@ TechHaven is a e-commerce platform built to showcase a database-centered archite
 ![image](https://github.com/user-attachments/assets/cad4272f-26fc-4e94-8b09-189cc9901253)
 
 
-💭**Thought** : I wanted to build a project that truly shows what a great database looks like in action. This is it.
+💭**Thought** : **I wanted to build a project that truly shows what a great database looks like in action. This is it.**
 
 ---
 
@@ -45,7 +45,7 @@ Find [SQL codes here](https://github.com/Teekafey/Tech_Haven/blob/main/Tables%20
 - `GET /api/cart?user_id=1` – Get cart for a user
 - `GET /api/order-summary?user_id=1` – Get latest order summary
 
-Find [python api codes here](https://github.com/Teekafey/Tech_Haven/blob/main/Python%20api.py)
+Find [python api codes here](https://github.com/Teekafey/Tech_Haven/blob/main/Python_api.py)
 
 ### 🖥️ Frontend (JS)
 - Dynamic loading of products and order info
@@ -71,18 +71,23 @@ Find [python api codes here](https://github.com/Teekafey/Tech_Haven/blob/main/Py
 
   
 🏠 **Products on Homepage**
+
 ![products](https://github.com/user-attachments/assets/847dd404-518c-4139-a830-e9983f7d7d3e)
 
 🎆**Products on API**
+
 ![api_products](https://github.com/user-attachments/assets/fa384615-d618-4867-b24a-7c51476fbd24)
 
 🛒 **Products on Cart**
+
 ![carts](https://github.com/user-attachments/assets/37f6d9c5-3803-4821-8753-5fc5d4c80bc7)
 
 🎆**Products on API**
+
 ![api_cart](https://github.com/user-attachments/assets/af871d10-37be-498f-9e65-9a865476cf9a)
 
 💱 **Order Summary** 
+
 ![order_summary](https://github.com/user-attachments/assets/3320234f-8afe-4b42-8cd7-f8e2fbc4764f)
 
 # Advanced PG/PLSQL process
@@ -131,7 +136,7 @@ FOR EACH ROW EXECUTE FUNCTION check_stock_before_order();
 UPDATE Products SET stock = 0 WHERE stock < 0;
 ```
 
-### Let us Test Stock Management
+### Let us Test Stock Management:
 ```SQL
 -- Check Initial Stock
 SELECT id, name, stock FROM Products WHERE id = 1;
@@ -150,4 +155,15 @@ VALUES (1, 1, 2, 1999.99);
 -- Check Stock Again if the stock decreased:
 SELECT id, name, stock FROM Products WHERE id = 1;
 ```
+![product_reduce](https://github.com/user-attachments/assets/6329a25a-dbc3-477d-9af7-85a2570ba4be)
 
+### 🔍 What Makes It Special
+- Deep Database Integration: All product data, cart actions, and orders are powered by SQL queries, functions, triggers, and stored procedures.
+
+- Minimal Backend: Just enough Flask to connect the frontend to the database — optimized for clarity and performance.
+
+- Frontend Simplicity: Clean HTML/CSS/JS layout with no frontend framework, proving you don’t need React to be dynamic.
+
+- Role-Specific Focus: As a DB dev, I wanted the data to do the talking. The frontend simply shows what the data says.
+
+## THANK YOU!!🙏🏽
