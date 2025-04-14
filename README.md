@@ -49,6 +49,8 @@ TechHaven is a e-commerce platform built to showcase a database-centered archite
 - Interactive cart UI (plus/minus buttons, remove, totals)
 - Checkout and summary flow
 
+### 📃 [Full Documentation here](https://github.com/Teekafey/Tech_Haven/blob/main/Documentation.md)
+
 ---
 **⭐ Star this repo if you find it useful or inspiring!**
 
