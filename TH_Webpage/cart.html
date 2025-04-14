@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TechHaven - Cart</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/jpg" href="logo1.jpg">
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div class="header-content">
+            <a href="#" class="logo">Tech<span>Haven</span></a>
+            <nav>
+              <ul>
+                <li><a href="new.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="#cart" class="cart-icon">Cart <span class="cart-count">2</span></a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+        <!-- Cart Page -->
+  <section id="cart" style="display: block;">
+    <div class="container">
+      <div class="section-title">
+        <h2>Your Shopping Cart</h2>
+      </div>
+      
+      <div class="cart-items">
+        <div class="cart-header">
+          <div>Product</div>
+          <div>Price</div>
+          <div>Quantity</div>
+          <div>Total</div>
+        </div>
+        
+        <!-- Cart Item 1 -->
+        <div class="cart-item">
+          <div class="cart-product">
+            <img src="product-image" alt="MacBook Pro">
+            <div class="cart-product-info">
+              <h3>TechX Pro Max Smartphone</h3>
+              <p>Color: Midnight Black</p>
+            </div>
+          </div>
+          <div class="cart-price">$999</div>
+          <div class="cart-quantity">
+            <button class="quantity-btn">-</button>
+            <input type="text" class="quantity-input" value="1">
+            <button class="quantity-btn">+</button>
+          </div>
+          <div class="cart-total">
+            $999
+            <button class="remove-btn">✕</button>
+          </div>
+        </div>
+        
+        <!-- Cart Item 2 -->
+        <div class="cart-item">
+          <div class="cart-product">
+            <img src="/api/placeholder/80/80" alt="SoundCore Wireless Earbuds">
+            <div class="cart-product-info">
+              <h3>SoundCore Wireless Earbuds</h3>
+              <p>Color: Navy Blue</p>
+            </div>
+          </div>
+          <div class="cart-price">$129</div>
+          <div class="cart-quantity">
+            <button class="quantity-btn">-</button>
+            <input type="text" class="quantity-input" value="1">
+            <button class="quantity-btn">+</button>
+          </div>
+          <div class="cart-total">
+            $129
+            <button class="remove-btn">✕</button>
+          </div>
+        </div>
+        
+        <!-- Cart Item 3 -->
+        <div class="cart-item">
+          <div class="cart-product">
+            <img src="/api/placeholder/80/80" alt="PowerDock Wireless Charger">
+            <div class="cart-product-info">
+              <h3>PowerDock Wireless Charger</h3>
+              <p>Color: White</p>
+            </div>
+          </div>
+          <div class="cart-price">$49</div>
+          <div class="cart-quantity">
+            <button class="quantity-btn">-</button>
+            <input type="text" class="quantity-input" value="1">
+            <button class="quantity-btn">+</button>
+          </div>
+          <div class="cart-total">
+            $49
+            <button class="remove-btn">✕</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="cart-summary">
+        <h3>Order Summary</h3>
+        <div class="summary-item">
+          <span>Subtotal (2 items)</span>
+          <span>$1,177.00</span>
+        </div>
+        <div class="summary-item">
+          <span>Shipping</span>
+          <span>Free</span>
+        </div>
+        <div class="summary-item">
+          <span>Tax</span>
+          <span>$94.16</span>
+        </div>
+        <div class="summary-total">
+          <span>Total</span>
+          <span>$1,271.16</span>
+        </div>
+        <button class="checkout-btn">Proceed to Checkout</button>
+      </div>
+    </div>
+  </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-about">
+              <a href="#" class="footer-logo">Tech<span>Haven</span></a>
+              <p>TechHaven is your destination for cutting-edge technology and gadgets. We offer a curated selection of the best smartphones, laptops, audio devices, and tech accessories to enhance your digital lifestyle.</p>
+              <div class="social-links">
+                <a href="https://facebook.com" class="social-link" target="_blank">f</a>
+                <a href="https://x.com" class="social-link" target="_blank">X</a>
+                <a href="https://linkedin.com" class="social-link" target="_blank">in</a>
+                <a href="https://instagram.com/" class="social-link" target="_blank">ig</a>
+              </div>
+            </div>
+            
+            <div class="footer-links">
+              <h3 class="footer-title">Shop</h3>
+              <ul>
+                <li><a href="#">Smartphones</a></li>
+                <li><a href="#">Laptops</a></li>
+                <li><a href="#">Audio</a></li>
+                <li><a href="#">Wearables</a></li>
+                <li><a href="#">Accessories</a></li>
+              </ul>
+            </div>
+            
+            <div class="footer-links">
+              <h3 class="footer-title">Support</h3>
+              <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Warranty</a></li>
+              </ul>
+            </div>
+            
+            <div class="footer-links">
+              <h3 class="footer-title">Company</h3>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="footer-bottom">
+            <p>&copy; 2025 TechHaven. All Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
+
+<script> 
+  // Fetch Cart Items and Display in the UI
+  document.addEventListener("DOMContentLoaded", function () {
+    const userId = 1; // Replace with dynamic user ID if needed
+
+    fetch(`http://127.0.0.1:5000/api/cart?user_id=${userId}`)
+        .then(response => response.json())
+        .then(cartItems => {
+            const cartContainer = document.querySelector(".cart-items");
+            const summarySubtotal = document.querySelector(".summary-item span:nth-child(2)");
+            const summaryTotal = document.querySelector(".summary-total span:nth-child(2)");
+            let subtotal = 0;
+
+            cartContainer.innerHTML = `
+                <div class="cart-header">
+                    <div>Product</div>
+                    <div>Price</div>
+                    <div>Quantity</div>
+                    <div>Total</div>
+                </div>
+            `; // Reset cart items
+
+            cartItems.forEach(item => {
+                const totalItemPrice = item.price * item.quantity;
+                subtotal += totalItemPrice;
+
+                const cartItem = document.createElement("div");
+                cartItem.classList.add("cart-item");
+                cartItem.innerHTML = `
+                    <div class="cart-product">
+                        <img src="${item.image_url}" alt="${item.product_name}">
+                        <div class="cart-product-info">
+                            <h3>${item.product_name}</h3>
+                            <p>Color: ${item.color}</p>
+                        </div>
+                    </div>
+                    <div class="cart-price">$${item.price}</div>
+                    <div class="cart-quantity">
+                        <button class="quantity-btn" data-id="${item.product_id}" data-action="decrease">-</button>
+                        <input type="text" class="quantity-input" value="${item.quantity}" disabled>
+                        <button class="quantity-btn" data-id="${item.product_id}" data-action="increase">+</button>
+                    </div>
+                    <div class="cart-total">
+                        $${totalItemPrice}
+                        <button class="remove-btn" data-id="${item.product_id}">✕</button>
+                    </div>
+                `;
+                cartContainer.appendChild(cartItem);
+            });
+
+            // Update Order Summary
+            summarySubtotal.innerText = `$${subtotal.toFixed(2)}`;
+            summaryTotal.innerText = `$${(subtotal + 94.16).toFixed(2)}`; // Example tax included
+        })
+        .catch(error => console.error("Error loading cart:", error));
+});
+
+function renderCartItem(item) {
+    return `
+        <div>
+            <img src="${item.image_url}" alt="${item.name}" />
+            <p>${item.name || "No name available"}</p>
+            <p>Price: $${item.price}</p>
+            <p>Quantity: ${item.quantity}</p>
+        </div>
+    `;
+}
+
+// update quantity dynamically.
+document.addEventListener("click", function (event) {
+    if (event.target.classList.contains("quantity-btn")) {
+        const productId = event.target.dataset.id;
+        const action = event.target.dataset.action;
+
+        fetch("http://127.0.0.1:5000/api/update-cart", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ user_id: 1, product_id: productId, action: action })
+        })
+        .then(() => location.reload())
+        .catch(error => console.error("Error updating cart:", error));
+    }
+
+    if (event.target.classList.contains("remove-btn")) {
+        const productId = event.target.dataset.id;
+
+        fetch("http://127.0.0.1:5000/api/remove-cart-item", {
+            method: "DELETE",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ user_id: 1, product_id: productId })
+        })
+        .then(() => location.reload())
+        .catch(error => console.error("Error removing item:", error));
+    }
+});
+
+
+
+// Proceed to Checkout
+document.querySelector(".checkout-btn").addEventListener("click", function () {
+    fetch("http://127.0.0.1:5000/api/checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ user_id: 1 })
+    })
+    .then(response => response.json())
+    .then(data => {
+        alert("Order placed successfully! Order ID: " + data.order_id);
+        window.location.href = "/order-summary.html";
+    })
+    .catch(error => console.error("Checkout error:", error));
+});
+
+
+document.querySelectorAll(".checkout-btn").forEach(button => {
+                button.addEventListener("click", function () {
+                    const productId = this.dataset.id;
+                    window.location.href = `/summary.html?id=${productId}`;
+                });
+            });
+
+</script>
+</body>
+</html>
