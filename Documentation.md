@@ -78,7 +78,7 @@ Find [python api codes here](https://github.com/Teekafey/Tech_Haven/blob/main/Py
 
 ![api_products](https://github.com/user-attachments/assets/fa384615-d618-4867-b24a-7c51476fbd24)
 
-🛒 **Products on Cart**
+🛒 **Products in Cart**
 
 ![carts](https://github.com/user-attachments/assets/37f6d9c5-3803-4821-8753-5fc5d4c80bc7)
 
